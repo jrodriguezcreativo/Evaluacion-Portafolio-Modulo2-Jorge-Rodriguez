@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #070B15;
+    color: #f5f6f7;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #f5f6f7aa;
+}
+
+.nav-link:hover {
+  color: #f5f6f766;
+}
+
+.nav-link:focus {
+  color: #f5f6f7;
+}
+
+
+.mi-boton {
+  background: linear-gradient(90deg, #6A357F, #2CC389);
+	padding: 8px 24px;
+	color: #fafbfc;
+	border: none;
+  border-radius: 4px;
+  margin: 0 4px;
+}
+
+.mi-boton:hover {
+	background: linear-gradient(90deg, #6A357Faa, #2CC389aa);
+	color: #fafbfcaa;
+}
