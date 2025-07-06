@@ -26,6 +26,10 @@ nav a {
   color: #f5f6f7;
 }
 
+.navbar-toggler {
+  color: #f5f6f7aa;
+  background-color: #f5f6f766;
+}
 
 .mi-boton {
   background: linear-gradient(90deg, #6A357F, #2CC389);
@@ -33,10 +37,20 @@ nav a {
 	color: #fafbfc;
 	border: none;
   border-radius: 4px;
-  margin: 0 4px;
 }
 
 .mi-boton:hover {
 	background: linear-gradient(90deg, #6A357Faa, #2CC389aa);
 	color: #fafbfcaa;
+}
+
+.display-3 {
+  font-size: 3.75rem ;
+  font-weight: 700;
+}
+
+@media (max-width: 576px) {
+	body {
+		padding: 0 16px ;
+	}
 }
