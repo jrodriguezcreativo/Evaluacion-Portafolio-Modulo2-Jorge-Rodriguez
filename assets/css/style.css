@@ -62,9 +62,34 @@ nav a {
   color: #f5f6f7;
 }
 
+.fondo {
+  background: linear-gradient(90deg, #6A357F, #2CC389);
+}
+
+.btn-outline-light {
+  color: #f5f6f7;
+}
+.btn-outline-light:hover {
+  color: #070B15;
+  background-color: #f5f6f7;
+  border: none;
+}
+
+.fs-2 {
+  margin: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #f5f6f7;
+}
+
+footer a:hover {
+  color: #f5f6f7aa;
+}
 
 @media (max-width: 660px) {
-	body {
+	main {
 		padding: 0 16px ;
 	}
 }
