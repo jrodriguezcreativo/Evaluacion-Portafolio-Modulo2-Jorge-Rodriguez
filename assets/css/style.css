@@ -10,6 +10,10 @@ body {
     color: #f5f6f7;
 }
 
+nav {
+  background: #070B15dd;
+}
+
 nav a {
   text-decoration: none;
 }
@@ -49,8 +53,18 @@ nav a {
   font-weight: 700;
 }
 
-@media (max-width: 576px) {
+
+@media (max-width: 660px) {
 	body {
 		padding: 0 16px ;
 	}
+}
+
+@media (max-width: 991px) {
+    .container, .container-md, .container-sm {
+        max-width: 640px;
+    }
+    #sobre-mi {
+      padding-top: 80px;
+    }
 }
