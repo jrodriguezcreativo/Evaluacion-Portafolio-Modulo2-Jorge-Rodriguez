@@ -64,6 +64,7 @@ nav a {
 
 .fondo {
   background: linear-gradient(90deg, #6A357F, #2CC389);
+  border-radius: 4px;
 }
 
 .btn-outline-light {
@@ -87,6 +88,8 @@ footer a {
 footer a:hover {
   color: #f5f6f7aa;
 }
+
+
 
 @media (max-width: 660px) {
 	main {

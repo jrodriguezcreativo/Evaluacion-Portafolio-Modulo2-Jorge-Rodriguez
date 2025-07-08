@@ -1,3 +1,5 @@
+$(document).ready(function() {
+
 document.getElementById('telefono').addEventListener('input', function (e) {
   let valor = e.target.value.replace(/\D/g, '');
   
@@ -9,3 +11,22 @@ document.getElementById('telefono').addEventListener('input', function (e) {
   
   e.target.value = valor;
 });
+
+const form = document.querySelector("form")
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+  document.getElementById("mensajeEnviado").style.display = "block"
+  this.reset()
+});
+
+const degradado = $(".degradado")
+
+$(degradado).on("mouseenter", function(){
+  $(this).addClass("fondo")
+})
+
+$(degradado).on("mouseleave", function(){
+  $(this).removeClass("fondo")
+})
+
+})

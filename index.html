@@ -125,31 +125,31 @@
                   Aquí hay algunas tecnologías con las que he estado trabajando
                   recientemente:
                 </p>
-                <img class="img-fluid" src="assets/img/ps.png" alt="logo PS" />
-                <img class="img-fluid" src="assets/img/ai.png" alt="logo AI" />
+                <img class="img-fluid degradado" src="assets/img/ps.png" alt="logo PS" />
+                <img class="img-fluid degradado" src="assets/img/ai.png" alt="logo AI" />
                 <img
-                  class="img-fluid"
+                  class="img-fluid degradado"
                   src="assets/img/fig.png"
                   alt="logo Figma"
                 />
-                <img class="img-fluid" src="assets/img/pr.png" alt="logo PR" />
+                <img class="img-fluid degradado" src="assets/img/pr.png" alt="logo PR" />
                 <img
-                  class="img-fluid"
+                  class="img-fluid degradado"
                   src="assets/img/html.png"
                   alt="logo HTML"
                 />
                 <img
-                  class="img-fluid"
+                  class="img-fluid degradado"
                   src="assets/img/css.png"
                   alt="logo CSS"
                 />
                 <img
-                  class="img-fluid"
+                  class="img-fluid degradado"
                   src="assets/img/js.png"
                   alt="logo JavaScript"
                 />
                 <img
-                  class="img-fluid"
+                  class="img-fluid degradado"
                   src="assets/img/ae.png"
                   alt="logo After effects"
                 />
@@ -172,10 +172,12 @@
       <section id="experiencia" class="py-5 my-5">
         <div class="container">
           <div class="row d-flex justify-content-center">
-            <div class="col-lg-10"><h4>Experiencia</h4></div>
+            <div class="col-lg-10">
+              <h4>Experiencia</h4>
+            </div>
           </div>
           <div
-            class="row d-flex align-items-center justify-content-center py-2"
+            class="row d-flex align-items-center justify-content-center py-2 degradado"
           >
             <div class="col-lg-4">
               <h5>Libu</h5>
@@ -195,7 +197,7 @@
             </div>
           </div>
           <div
-            class="row d-flex align-items-center justify-content-center py-2"
+            class="row d-flex align-items-center justify-content-center py-2 degradado"
           >
             <div class="col-lg-4">
               <h5>AGP</h5>
@@ -223,18 +225,20 @@
       <section id="proyectos">
         <div class="container">
           <div class="row d-flex justify-content-center">
-            <div class="col-lg-10"><h4>Experiencia</h4></div>
+            <div class="col-lg-10">
+              <h4>Experiencia</h4>
+            </div>
           </div>
           <div
-            class="row d-flex justify-content-center align-items-center py-2"
+            class="row d-flex justify-content-center align-items-center py-2 "
           >
             <div class="col-lg-10">
-              <div class="card mb-3">
+              <div class="card mb-3 mi-experiencia degradado">
                 <div class="row g-0 d-flex align-items-center">
                   <div class="col-lg-5">
                     <img
                       src="assets/img/libu.png"
-                      class="img-fluid rounded-start"
+                      class="img-fluid rounded-start imagen"
                       alt="..."
                     />
                   </div>
@@ -258,17 +262,17 @@
             class="row d-flex justify-content-center align-items-center py-2"
           >
             <div class="col-lg-10">
-              <div class="card mb-3">
+              <div class="card mb-3 mi-experiencia degradado">
                 <div class="row g-0 d-flex align-items-center">
                   <div class="col-lg-5">
                     <img
                       src="assets/img/tailwind.png"
-                      class="img-fluid rounded-start"
+                      class="img-fluid rounded-start imagen"
                       alt="..."
                     />
                   </div>
                   <div class="col-lg-5">
-                    <div class="card-body">
+                    <div class="card-body ">
                       <h5 class="card-title">Tarjeta personal - Tailwind</h5>
                       <p class="card-text">
                         Ejercicio básico de maquetación con Tailwind CSS, donde
@@ -289,7 +293,9 @@
       <section id="contacto" class="py-5 my-5">
         <div class="container">
           <div class="row d-flex justify-content-center">
-            <div class="col-lg-10"><h4>Contacto</h4></div>
+            <div class="col-lg-10">
+              <h4>Contacto</h4>
+            </div>
           </div>
           <div class="row d-flex justify-content-center align-items-center">
             <div class="col-lg-5">
@@ -355,6 +361,12 @@
                     Submit
                   </button>
                 </div>
+                <div
+                  id="mensajeEnviado"
+                  style="display: none; margin-top: 1rem"
+                >
+                  ¡Mensaje enviado con éxito!
+                </div>
               </form>
             </div>
           </div>
@@ -413,6 +425,7 @@
         </div>
       </div>
     </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
