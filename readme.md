@@ -28,4 +28,4 @@ Recuerda que este proyecto irá directamente al registro de evidencia de tu port
 - jQuery
 - Git + GitHub
 
-[ver sitio](https://jokercg.github.io/Evaluacion-Portafolio-Modulo2-Jorge-Rodriguez/)
+[ver sitio](https://jrodriguezcreativo.github.io/Evaluacion-Portafolio-Modulo2-Jorge-Rodriguez/)
